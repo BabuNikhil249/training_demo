@@ -34,3 +34,7 @@ def logout_view(request):
 def logout_view1(request):
     request.session.flush()
     return redirect('login')
+    
+def logout_view1(request):
+    request.session.flush()
+    return redirect('login')
