@@ -28,7 +28,7 @@ urlpatterns = [
     path('', include('accounts.urls')),
 ]
 
-urlpatterns1 = [
+urlpatterns3 = [
     path('admin/', admin.site.urls),
     path('', include('accounts.urls')),
 ]
