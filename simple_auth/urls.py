@@ -23,7 +23,7 @@ urlpatterns = [
 ]
 
 
-urlpatterns11 = [
+urlpatterns1122 = [
     path('admin/', admin.site.urls),
     path('', include('accounts.urls')),
 ]
