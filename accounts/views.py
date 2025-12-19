@@ -17,9 +17,9 @@ def home_view(request):
         return redirect('login')
     
     role_text = ""
-    if username == 'murali':
+    if username == 'Boss':
         role_text = "You're the owner"
-    elif username == 'nikhil':
+    elif username == 'nikhilbabu':
         role_text = "You're the employee"
         
     return render(request, 'accounts/home.html', {'role_text': role_text, 'username': username})
